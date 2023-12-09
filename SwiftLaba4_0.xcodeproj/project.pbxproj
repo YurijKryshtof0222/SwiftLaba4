@@ -15,6 +15,10 @@
 		846BC08E2B24C9A5005F67FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846BC08C2B24C9A5005F67FC /* LaunchScreen.storyboard */; };
 		846BC0992B24C9A5005F67FC /* SwiftLaba4_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BC0982B24C9A5005F67FC /* SwiftLaba4_0Tests.swift */; };
 		846BC0A42B24C9A5005F67FC /* SwiftLaba4_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BC0A32B24C9A5005F67FC /* SwiftLaba4_0UITests.swift */; };
+		846BC0B52B24C9B7005F67FC /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BC0B12B24C9B7005F67FC /* Semaphore.swift */; };
+		846BC0B62B24C9B7005F67FC /* DispatchQueueSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BC0B22B24C9B7005F67FC /* DispatchQueueSerial.swift */; };
+		846BC0B72B24C9B7005F67FC /* OperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BC0B32B24C9B7005F67FC /* OperationQueue.swift */; };
+		846BC0B82B24C9B7005F67FC /* DispatchQueueConcurent_Original.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BC0B42B24C9B7005F67FC /* DispatchQueueConcurent_Original.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		846BC09F2B24C9A5005F67FC /* SwiftLaba4_0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLaba4_0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846BC0A32B24C9A5005F67FC /* SwiftLaba4_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLaba4_0UITests.swift; sourceTree = "<group>"; };
 		846BC0A52B24C9A5005F67FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846BC0B12B24C9B7005F67FC /* Semaphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
+		846BC0B22B24C9B7005F67FC /* DispatchQueueSerial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueSerial.swift; sourceTree = "<group>"; };
+		846BC0B32B24C9B7005F67FC /* OperationQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationQueue.swift; sourceTree = "<group>"; };
+		846BC0B42B24C9B7005F67FC /* DispatchQueueConcurent_Original.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueConcurent_Original.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 		846BC0802B24C9A4005F67FC /* SwiftLaba4_0 */ = {
 			isa = PBXGroup;
 			children = (
+				846BC0B42B24C9B7005F67FC /* DispatchQueueConcurent_Original.swift */,
+				846BC0B22B24C9B7005F67FC /* DispatchQueueSerial.swift */,
+				846BC0B32B24C9B7005F67FC /* OperationQueue.swift */,
+				846BC0B12B24C9B7005F67FC /* Semaphore.swift */,
 				846BC0812B24C9A4005F67FC /* AppDelegate.swift */,
 				846BC0832B24C9A4005F67FC /* SceneDelegate.swift */,
 				846BC0852B24C9A4005F67FC /* ViewController.swift */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				846BC0862B24C9A4005F67FC /* ViewController.swift in Sources */,
+				846BC0B72B24C9B7005F67FC /* OperationQueue.swift in Sources */,
 				846BC0822B24C9A4005F67FC /* AppDelegate.swift in Sources */,
+				846BC0B82B24C9B7005F67FC /* DispatchQueueConcurent_Original.swift in Sources */,
+				846BC0B52B24C9B7005F67FC /* Semaphore.swift in Sources */,
+				846BC0B62B24C9B7005F67FC /* DispatchQueueSerial.swift in Sources */,
 				846BC0842B24C9A4005F67FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

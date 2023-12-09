@@ -11,8 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let dispatchQueueConcurentRunner = DispatchQueueConcurentRunner()
+        let dispatchQueueSerialQueue = DispatchQueueSerialQueue()
+        let operationQueueRunner = OperationQueueRunner()
+        let semaphore = SemaphoreRunner()
+
+//        print("hello")
+
+        semaphore.simulate()
     }
 
 
